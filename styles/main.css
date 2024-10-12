@@ -39,6 +39,8 @@
   cursor: pointer;
 }
 
+
+
 .dark-1 {
   color: #0D1321;
 }
@@ -46,6 +48,10 @@
 .dark-2 {
   color: #0D1321;
   opacity: 70%;
+}
+
+.light{
+  color: #FFFFFF;
 }
 
 .text-description{
@@ -262,3 +268,42 @@ section>div{
 .bg-3{
   background-color: rgba(255, 223, 0, 0.05);
 }
+
+
+
+
+/* feedback : support section */
+
+#support{
+  width: 1140px;
+  margin: 0 auto;
+  background-image: url("../assets/handshake.jpg");
+  background-position: center;
+  border-radius: 16px;
+  padding: 30px 10px;
+}
+
+#support .section-title{
+  color: #fff;
+}
+
+.feedback-form{
+  text-align: center;
+  margin-top: 24px;
+}
+.feedback-form input[type="text"]{
+  padding: 20px;
+  font-size: 16px;
+  font-family: "Azeret Mono", monospace;
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.feedback-form input::placeholder{
+  font-size: 16px;
+  font-family: "Azeret Mono", monospace;
+}
+
+
+
