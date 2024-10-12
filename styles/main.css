@@ -209,3 +209,56 @@ section>div{
   height: 100%;
   border-radius: 10px;
 }
+
+
+
+/* Current target section */
+
+#current-target{
+  max-width: 1140px;
+  margin:0 auto;
+  margin-bottom: 130px;
+}
+
+.target-card-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+
+}
+
+.target-card{
+  align-items: start;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.target-card>a{
+  text-decoration: underline;
+  color: #0D1321;
+  font-weight: 700;
+}
+
+.target-card>h3{
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 36px;
+  margin: 20px 0;
+}
+
+.target-card>p{
+  margin: 20px 0;
+}
+
+.bg-1{
+  background-color: rgba(255, 76, 30, 0.05) ;
+}
+
+.bg-2{
+  background-color: rgba(0, 76, 232, 0.05);
+}
+
+.bg-3{
+  background-color: rgba(255, 223, 0, 0.05);
+}
