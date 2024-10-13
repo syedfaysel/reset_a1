@@ -22,8 +22,19 @@
 .btn-primary {
   background-color: white;
   border: 1px solid;
-  border-radius: 10px;
-  padding: 18px 32px;
+  border-radius: 8px;
+  padding: 17px 24px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-secondary{
+  background-color: #0D1321;
+  color: white;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 21px 24px;
   font-size: 20px;
   font-weight: 700;
   cursor: pointer;
@@ -33,7 +44,7 @@
 .btn-3{
   background-color: white;
   border: 1px solid;
-  padding: 16px 35px;
+  padding: 12px 20px;
   font-size: 20px;
   font-weight: 700;
   cursor: pointer;
@@ -313,7 +324,7 @@ section>div{
 
 
 footer{
-  background-color: rgba(13,19 ,33, 0.03);
+  background-color: rgba(13,19 ,33, 0.05);
   margin-top: 80px;
 }
 
@@ -331,7 +342,7 @@ footer{
   font-weight: 600;
 }
 
-/* social icons */
+/* social icons  & contact me*/
 
 #contact-me a{
   margin-left: 24px;
